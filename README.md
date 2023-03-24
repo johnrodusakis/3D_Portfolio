@@ -16,3 +16,7 @@ Extra Libraries Installations:
 Run Project:
 
 - `npm run dev`
+
+Deploy Website to GitHub:
+
+- `npm install gh-pages --save-dev`
