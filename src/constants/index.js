@@ -26,9 +26,26 @@ import {
     
     itch_io,
     github,
+    uoi,
+    q_base,
+    ultimate_game_dev_course,
+    game_dev_boot_camp_course,
+
+    game_dev,
+    mobile_dev,
+    programming,
+    
+    unity,
+    unreal_engine,
+    c_sharp,
+    c_plus_plus,
+    java,
+    python,
+    flutter,
 
     duck_u,
     gilbroth,
+    chess_club,
   } from "../assets";
   
   
@@ -49,138 +66,93 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Game Developer",
+      icon: game_dev,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Mobile Developer",
+      icon: mobile_dev,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
+      title: "Programmer",
+      icon: programming,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "C#",
+      icon: c_sharp,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C++",
+      icon: c_plus_plus,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Flutter",
+      icon: flutter,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Unity",
+      icon: unity,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "Unreal Engine",
+      icon: unreal_engine,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Game Developer - Programmer",
+      company_name: "Q BASE R&D",
+      icon: q_base,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and developed gameplay mechanics, user interface, and game systems for a VR Game made with Unity called “Escape Space”.",
+        "Collaborated with art and sound teams to create immersive and visually stunning gaming experiences.",
+        "Worked with project managers and stakeholders to ensure projects were completed on time and within budget.",
       ],
     },
+  ];
+  
+  const educations = [
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Computer Science",
+      company_name: "University Of Ioannina",
+      icon: uoi,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      date: "September 2017 - February 2023",
+      points: [],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      title: "Ultimate Game Dev Course",
+      company_name: "by Jason Weinmann & Tomas Brush",
+      icon: ultimate_game_dev_course,
+      iconBg: "#383E56",
+      date: "October 2022 - Present",
+      points: [],
+    },
+    {
+      title: "Game Developer Boot Camp",
+      company_name: "by Jason Weinmann",
+      icon: game_dev_boot_camp_course,
+      iconBg: "#383E56",
+      date: "February 2023 - Present",
+      points: [],
     },
   ];
   
@@ -215,7 +187,7 @@ import {
     {
       name: "Duck U",
       description:
-        "",
+        "You are the last duck! Your purpose is to protect the eggs with your life from the Robot-Ducks, upgrade your Weapons, Abilities and Nest to stay alive, but most important PROTECT THE EGGS!",
       tags: [
         {
           name: "Unity",
@@ -274,10 +246,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: chess_club,
       link_image: github,
       source_code_link: "https://github.com/johnrodusakis/ChessClub",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, educations, testimonials, projects };

@@ -68,21 +68,16 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className = "mt-3 text-secondary text-justify text-[17px] max-w-3xl leading-[30px]"
+          className = "mt-3 text-secondary text-justify text-[17px] max-w-7xl leading-[30px]"
         >
-          Since 2020, I've been actively pursuing my interest in game development. I've been studying 
-          programming languages and game design principles, and I've been practicing my skills by 
-          creating my own games and collaborating with others on game development projects.
-          <br />
-          <br />
-          What drives my passion for game development is the desire to innovate and create something 
-          new and exciting in the gaming industry. I'm always brainstorming new game ideas and 
-          exploring ways to push the boundaries of what is possible in gaming.
-          <br />
-          <br />
-          Overall, my love for game development since 2020 is a constant source of inspiration and 
-          motivation for me. It drives me to learn and improve my skills, and it fuels my dream of creating 
-          games that people will love and enjoy for years to come
+          I'm excited to tell you about my experience with Unity game engine and the various game 
+          projects I've worked on. Unity has been an incredible tool for me to bring my ideas to life, 
+          allowing me to create dynamic, immersive environments and gameplay mechanics that I never thought 
+          possible. I've experimented with a variety of genres, from platformers to puzzle games, and each 
+          project has challenged me to think creatively and push the boundaries of what I can do with Unity. 
+          Whether it's scripting complex AI behavior, designing intricate levels, or fine-tuning the game 
+          mechanics, I've enjoyed every aspect of the development process. Overall, I'm proud of the games 
+          I've created using Unity and I can't wait to see what else I can do with this amazing tool.
         </motion.p>
       </div>
 

@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm  <span className='text-[#915eff]'> John</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop games using<br className='sm:block hidden'/> Unity Game Engine.
+          I'm a Game Developer who is passionate about creating immersive and engaging gaming experiences for players around the world.
           </p>
         </div>
       </div>

@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+          <img src={icon} alt={title} className='w-24 h-24 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
       </motion.div>
@@ -40,7 +40,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("up", "", 0.1, 2)}
-        className="mt-4 text-secondary text-[17px] text-justify max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] text-justify max-w-7xl leading-[30px]"
       >
         Since 2020, I've been actively pursuing my interest in game development. I've been studying 
         programming languages and game design principles, and I've been practicing my skills by 
@@ -54,7 +54,7 @@ const About = () => {
         <br />
         Overall, my love for game development since 2020 is a constant source of inspiration and 
         motivation for me. It drives me to learn and improve my skills, and it fuels my dream of creating 
-        games that people will love and enjoy for years to come
+        games that people will love and enjoy for years to come.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
