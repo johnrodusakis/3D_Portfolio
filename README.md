@@ -19,4 +19,7 @@ Run Project:
 
 Deploy Website to GitHub:
 
-- `npm install gh-pages --save-dev --legacy-peer-deps`
+- `npm run build`
+- `git add dist -f`
+- `git commit -m "Adding dist"`
+- `git subtree push --prefix dist origin gh-pages`
