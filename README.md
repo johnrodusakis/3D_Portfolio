@@ -19,4 +19,4 @@ Run Project:
 
 Deploy Website to GitHub:
 
-- `npm install gh-pages --save-dev`
+- `npm install gh-pages --save-dev --legacy-peer-deps`
