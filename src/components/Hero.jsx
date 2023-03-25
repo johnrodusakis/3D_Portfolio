@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm  <span className='text-[#915eff]'> John</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I'm a Game Developer who is passionate about creating immersive and engaging gaming experiences for players around the world.
+            I'm a Game Developer who is passionate about creating immersive and engaging gaming experiences for players around the world.
           </p>
         </div>
       </div>
@@ -24,17 +24,17 @@ const Hero = () => {
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[40px] h-[80px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div 
+          <div className='w-[30px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <motion.div
               animate={{
-                y: [0, 24, 0]
+                y: [0, 32, 0]
               }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: 'loop',
               }}
-              className="w-4 h-4 rounded-full bg-secondary mb-1"
+              className="w-2 h-2 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>

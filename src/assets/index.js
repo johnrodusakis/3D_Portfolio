@@ -47,6 +47,7 @@ import unreal_engine from "./logos/unreal_engine_logo.png";
 import duck_u from "./projects/duck_u.png";
 import gilbroth from "./projects/gilbroth's_labyrinth.png";
 import chess_club from "./projects/chess_club.png";
+import chess from "./projects/chess_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,7 +81,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  
+
   github,
   itch_io,
   uoi,
@@ -91,6 +92,7 @@ export {
   duck_u,
   gilbroth,
   chess_club,
+  chess,
 
   game_dev,
   mobile_dev,
