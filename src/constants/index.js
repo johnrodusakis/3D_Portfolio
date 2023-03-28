@@ -188,7 +188,7 @@ const projects = [
   {
     name: "Duck U",
     description:
-      "You are the last duck! Your purpose is to protect the eggs with your life from the Robot-Ducks, upgrade your Weapons, Abilities and Nest to stay alive, but most important PROTECT THE EGGS!",
+      "Arm your wings and protect the nest! Upgrade your arsenal and outsmart enemy robot ducks in this action-packed 2D game.",
     tags: [
       {
         name: "Unity",
@@ -204,13 +204,17 @@ const projects = [
       },
     ],
     image: duck_u,
-    link_image: itch_io,
-    source_code_link: "https://johnrod.itch.io/2d-shooter-unique-bullets",
+    link_images: [
+      itch_io,
+    ],
+    source_code_links: [
+      "https://johnrod.itch.io/2d-shooter-unique-bullets",
+    ]
   },
   {
     name: "Gilbroth's Labyrinth",
     description:
-      "",
+      "Conquer the maze, claim the treasure, and earn the King's favor in this perilous 3D adventure game.",
     tags: [
       {
         name: "Unity",
@@ -226,13 +230,17 @@ const projects = [
       },
     ],
     image: gilbroth,
-    link_image: itch_io,
-    source_code_link: "https://johnrod.itch.io/gilbroths-labyrinth",
+    link_images: [
+      itch_io,
+    ],
+    source_code_links: [
+      "https://johnrod.itch.io/gilbroths-labyrinth",
+    ]
   },
   {
     name: "Chess Club",
     description:
-      "",
+      "Step into a whole new dimension of chess with our 3D multiplayer game. Challenge your friends and dominate the board!",
     tags: [
       {
         name: "Unity",
@@ -248,8 +256,14 @@ const projects = [
       },
     ],
     image: chess,
-    link_image: github,
-    source_code_link: "https://github.com/johnrodusakis/ChessClub",
+    link_images: [
+      itch_io,
+      github,
+    ],
+    source_code_links: [
+      "https://johnrod.itch.io/chess-club",
+      "https://github.com/johnrodusakis/ChessClub",
+    ]
   },
 ];
 
