@@ -28,6 +28,8 @@ import {
   github,
   uoi,
   q_base,
+  deloitte,
+  kumagema,
   ultimate_game_dev_course,
   game_dev_boot_camp_course,
 
@@ -121,11 +123,35 @@ const experiences = [
     company_name: "Q BASE R&D",
     icon: q_base,
     iconBg: "#383E56",
-    date: "November 2022 - April 2023",
+    date: "Nov 2022 - Apr 2023",
     points: [
       "Designed and developed gameplay mechanics, user interface, and game systems for a VR Game made with Unity called “Escape Space”.",
       "Collaborated with art and sound teams to create immersive and visually stunning gaming experiences.",
       "Worked with project managers and stakeholders to ensure projects were completed on time and within budget.",
+    ],
+  },
+  {
+    title: "Full-Stack Developer- Salesforce",
+    company_name: "Deloitte",
+    icon: deloitte,
+    iconBg: "#383E56",
+    date: "Jul 2023 - Present",
+    points: [
+      "Crafted user-focused Salesforce experiences. Emphasized intuitive design with technologies like Lightning Web Components; integrated external systems for enhanced functionality.",
+      "Developed robust backend Salesforce logic. Implemented process automation, custom business rules, and data manipulation using Apex, SOQL, and SOSL.",
+      "Championed code quality and collaboration. Prioritized thorough testing, utilized version control (Git), and actively participated in Agile development methodologies.",
+    ],
+  },
+  {
+    title: "Game Developer - Programmer",
+    company_name: "KUMAGEMA",
+    icon: kumagema,
+    iconBg: "#383E56",
+    date: "Dec 2023 - Present",
+    points: [
+      "Implemented core gameplay mechanics using C# scripting. Demonstrated proficiency in object-oriented design, physics systems, and Unity's component-based architecture to bring game concepts to life.",
+      "Optimized game performance for smooth player experiences. Profiled code, identified bottlenecks, and employed techniques such as object pooling and efficient algorithms to ensure consistent framerates.",
+      "Collaborated effectively within an iterative development environment. Utilized version control (Git), participated in code reviews, and adapted to evolving project requirements with flexibility.",
     ],
   },
 ];
