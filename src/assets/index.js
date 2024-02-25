@@ -29,6 +29,8 @@ import github from "./logos/github.png";
 import itch_io from "./logos/itch_io.png";
 import uoi from "./logos/uoi_logo.png";
 import q_base from "./logos/q_base_logo.png";
+import deloitte from "./logos/deloitte_logo.png";
+import kumagema from "./logos/kumagema_logo.png";
 import ultimate_game_dev_course from "./logos/ultimate_game_dev_course_logo.png";
 import game_dev_boot_camp_course from "./logos/game_dev_boot_camp_logo.png";
 
@@ -86,6 +88,8 @@ export {
   itch_io,
   uoi,
   q_base,
+  deloitte,
+  kumagema,
   ultimate_game_dev_course,
   game_dev_boot_camp_course,
 
